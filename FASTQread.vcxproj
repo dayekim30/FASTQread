@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="frames.h" />
+    <ClInclude Include="hashmap.h" />
+    <ClInclude Include="parsing.h" />
+    <ClInclude Include="sequence.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="frames.cpp" />
+    <ClCompile Include="hashmap.cpp" />
+    <ClCompile Include="parsing.cpp" />
+    <ClCompile Include="readFile.cpp" />
+    <ClCompile Include="sequence.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,25 +151,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\FASTQ\frames.cpp" />
-    <ClCompile Include="..\FASTQ\hashmap.cpp" />
-    <ClCompile Include="..\FASTQ\parsing.cpp" />
-    <ClCompile Include="..\FASTQ\readFile.cpp" />
-    <ClCompile Include="..\FASTQ\sequence.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\FASTQ\frames.h" />
-    <ClInclude Include="..\FASTQ\hashmap.h" />
-    <ClInclude Include="..\FASTQ\parsing.h" />
-    <ClInclude Include="..\FASTQ\sequence.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\FASTQ\neclo.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\FASTQ\sample.fastq" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

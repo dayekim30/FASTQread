@@ -15,44 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\FASTQ\sequence.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\FASTQ\frames.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\FASTQ\hashmap.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\FASTQ\parsing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\FASTQ\readFile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\FASTQ\sequence.h">
+    <ClInclude Include="frames.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\FASTQ\frames.h">
+    <ClInclude Include="hashmap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\FASTQ\hashmap.h">
+    <ClInclude Include="parsing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\FASTQ\parsing.h">
+    <ClInclude Include="sequence.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\FASTQ\neclo.txt">
+    <ClCompile Include="readFile.cpp">
       <Filter>Source Files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\FASTQ\sample.fastq">
+    </ClCompile>
+    <ClCompile Include="frames.cpp">
       <Filter>Source Files</Filter>
-    </None>
+    </ClCompile>
+    <ClCompile Include="hashmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parsing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
